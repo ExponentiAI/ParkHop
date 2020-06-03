@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.fshi.crowdparking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ekTw5bKNfMeDUeA0Aduliu9H" />
+
+        <activity
+            android:name=".ParkingLotListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MyParkingLotListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MyParkingLotActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".auth.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ParkingLotActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ParkingLotMapActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <receiver
+            android:name=".network.ParkingLotUpdateAlarm"
+            android:enabled="true" >
+        </receiver>
+        <receiver
+            android:name=".lbs.BaiduMapLocationUpdateAlarm"
+            android:enabled="true" >
+        </receiver>
+    </application>
+
+</manifest>

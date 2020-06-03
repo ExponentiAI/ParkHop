@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.fshi.crowdparking.ParkingLotListActivity" >
+
+    <item
+        android:id="@+id/action_bid_parking_lot"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_bid"/>
+    
+    <item
+        android:id="@+id/action_cancel_bid_parking_lot"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_cancel"/>
+
+</menu>

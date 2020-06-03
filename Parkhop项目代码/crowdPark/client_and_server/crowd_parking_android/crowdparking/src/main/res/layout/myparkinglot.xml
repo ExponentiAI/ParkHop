@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1sp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:padding="5sp"
+            android:paddingBottom="0sp" >
+
+            <TextView
+                android:id="@+id/my_parkinglot_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/hello_world"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/my_parkinglot_loc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/parking_lot_default_distance"
+                android:textColor="#A9A9A9"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/my_parkinglot_price"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:paddingBottom="0sp" />
+        
+        <TextView
+            android:id="@+id/my_parkinglot_bid"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textColor="#A9A9A9"
+            android:textSize="12sp"
+            android:paddingBottom="0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/my_parkinglot_list_addr"
+        android:layout_width="fill_parent"
+        android:layout_height="30sp"
+        android:gravity="left"
+        android:padding="5sp"
+        android:paddingTop="0sp"
+        android:text="@string/default_string"
+        android:textColor="#A9A9A9"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="4dip"
+        android:background="?android:attr/dividerHorizontal" />
+
+</LinearLayout>

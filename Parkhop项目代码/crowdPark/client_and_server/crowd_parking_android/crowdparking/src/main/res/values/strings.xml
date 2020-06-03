@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         <string name="app_name">Crowdparking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_parking_lot_list">parking lot list</string>
+    <string name="text_report_parking_lot">report parking lot</string>
+    <string name="text_parking_lot_detail">parking lot detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_report_parking_lot">Report</string>
+    <string name="action_refresh_parking_lot">Refresh</string>
+    <string name="action_bid">Bid</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="activity_report_parking_lot">Report A Parking Lot</string>
+    <string name="report_parking_lot">Report</string>
+    <string name="bid_parking_lot">Bid</string>
+    <string name="bid_parking_lot_min">Min Bid</string>
+    <string name="report_parking_lot_name">Name</string>
+    <string name="report_parking_lot_desc">Description</string>
+    <string name="report_parking_lot_bid">Min Bid</string>
+    <string name="parking_lot_default_distance">N/A</string>
+    <string name="my_bid">N/A</string>
+    
+    <string name="loading">LOADING&#8230;</string>
+    
+    <string name="login_driver">Driver Login</string>
+    <string name="login_sourcer">Crowd Sourcer Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    -->
+
+    <string name="app_name">ParkCrowd</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_parking_lot_list">Park List</string>
+    <string name="text_report_parking_lot">report parking lot</string>
+    <string name="text_parking_lot_detail">parking lot detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_report_parking_lot">Report</string>
+    <string name="action_show_parking_lot">My</string>
+    <string name="action_refresh_parking_lot">Refresh</string>
+    <string name="action_identity">I am：</string>
+    <string name="action_bid">Bid</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="activity_report_parking_lot">Report A Parking Lot</string>
+    <string name="report_parking_lot">Submit</string>
+    <string name="bid_parking_lot">Bid</string>
+    <string name="bid_parking_lot_min">Min Bid</string>
+    <string name="report_parking_lot_name">Name</string>
+    <string name="report_parking_lot_desc">Desc</string>
+    <string name="parking_lot_addr">Address</string>
+    <string name="report_parking_lot_bid">Min Bid</string>
+    <string name="report_parking_lot_price">Price/Hour</string>
+    <string name="parking_lot_default_distance">N/A</string>
+    <string name="default_string">N/A</string>
+    <string name="my_bid">N/A</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="login_driver">Driver</string>
+    <string name="login_sourcer">Worker</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    
+    <string name="check_box_instruction">Please select your nearby POIs：</string>
+
+    <!-- Color -->
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9C9C98</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
